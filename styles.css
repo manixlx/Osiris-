@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    height: 100px; 
+    width: 17vw;
+}
+
+.space1{
+    height: 100%;
+    width: 40vw;
+}
+
+a, h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    color: #000;
+    font-size: x-large;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #03A126;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+
+.policies{
+    width: 25vw;
+}
+
+.polici{
+    padding: 0 20px;
+    margin: 15px;
+}
+
+.socials{
+    height: 100%;
+    width: 50vw; 
+}
+
+.social{
+    width: 100%;
+    text-align: center;
+}
+
+.sociallogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.logol{
+    height: 50px;
+    width: 50px;
+}
+
+.logoly{
+    height: 50px;
+    width: 60px;
+}
+
+.aboutus, .resourcenasa{
+    margin: 0;
+    background-color: #88E986;
+    width: 100%;
+    height: 100px;
+}
+
+.textabout, .textresource{
+    margin: 0;
+    background-color: #BBF5BF;
+    margin: 0;
+    display: inline-block;
+}
+
+.abouttext, .resourcetext{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 27px;
+}
+
+.abouttitle, .resourcetitle{
+    margin: 0;
+    padding-left: 65px;
+    font-size: 80px;
+    text-align: start;
+}
+
+.abouttitle1, .resourcetitle1{
+    color: #85fB57;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.warning{
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
